@@ -1,0 +1,56 @@
+.hero {
+    @include flex-center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.hero__content {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.hero__body {
+    padding: 20% 0 20% 0;
+}
+
+.hero__tittle {
+        position: static;
+        @include flex-center;
+        margin: 50% 0 0 3%;
+        font-size: 1.4rem;
+
+        text-transform: uppercase;
+        color: #929A9F;
+}
+
+.hero__subtittle{
+    position: static;
+    @include flex-center;
+    font-family: 'Georama', sans-serif;
+    font-size: 3.2rem;
+    color: #263640;
+}
+
+.hero__text{ 
+        position: static;
+        display: flex;
+        margin: 1.5rem 0;
+        font-family: 'Georama', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.6rem;
+        color: #929A9F;
+}
+
+.hero__image {
+    position: absolute;
+    right: 15%;
+    top: 20%;
+}
+
+
+    

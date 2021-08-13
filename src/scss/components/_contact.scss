@@ -1,0 +1,31 @@
+
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+}
+
+.contact__content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 65% 0 10% 0;
+}
+
+.contact__image {
+    position: absolute;
+    display: flex;
+    margin: 40% 0 0 10%;
+}
+
+.contact__indent-none {
+    margin: 3% 0 3% 0 !important;
+}
+
+.hero-contact {
+    @include flex-center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 88%;
+    margin: 0 auto;
+}

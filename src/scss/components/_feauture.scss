@@ -1,0 +1,44 @@
+.feauture {
+    @include flex-center; 
+}
+
+.feature__content {
+    @include flex-center;  
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 8% 0 8% 0;
+
+}
+
+.feature__blog {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 27%;
+    margin: 0 3% 0 0;
+}
+
+.feauture__tittle {
+        position: static;
+        display: flex;
+        flex-direction: column;
+        margin: 10% 0 0 0;
+        font-size: 2.0rem;
+        font-family: 'Georama', sans-serif;
+        text-transform: uppercase;
+        color: #263640;  
+}
+
+.feauture__text { 
+    position: static;
+    display: flex;
+    flex-direction: column;
+}
+
+.feauture__name {
+    padding-top: 20%;
+}
+
+.feauture__indent {
+    margin: 40% 0 0 0;
+}

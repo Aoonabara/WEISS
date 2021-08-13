@@ -1,0 +1,50 @@
+.footer {
+    background: #263640;
+}
+
+.footer-contact {
+    @include flex-center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.footer__body {
+    display: flex;
+    width: 100%;
+    background: #263640;
+}
+
+.footer__logo {
+    display: flex;
+    margin: 5% 50% 5% 0;
+}
+
+.logo__color {
+    padding: 0;
+    color: white;
+}
+
+.footer__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 3% 2% 0;
+}
+
+.footer__tittle {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+}
+
+.footer__bottom{
+    width: 100%;
+}
+
+.footer__text {
+    margin: 0!important;
+    font-size: 1.6rem;
+    color: white;
+}
+
